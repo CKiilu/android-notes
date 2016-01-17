@@ -204,3 +204,18 @@ To calculate average using this do:
        
 Afterwards call this method in the main method while inputting the required number as parameters. 
 For example: average(1,2,3,4,5,6);
+
+###VIDEO 36: TIME CLASS
+
+Create a class with the private variables hour, minute and second. Within the class create the setTime method with parameters representing the aforementioned variables.
+
+In the setter equate the private variables to the parameters while inputting conditions. Replace 24 with 60 for minute and second. The last part of the conditional sets default value as 0;
+
+     Example
+     hour = ((h>=0 && h<24 ? h : 0)
+ 
+ For the 24 hour system create a method containing the statement below:
+ 
+ return String.format("%02d:%02d:%02d", hour, minute, second);
+ 
+ %02d represents setting the numbers shown for time for each unit to two integers.
