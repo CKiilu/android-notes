@@ -170,3 +170,20 @@ These are arrays which contain more than a single array within them. They are us
 For example: int array[][]={{1,2,3,4,5}{6,7,8,9,0}}
 
 To call elements use array index and element index while remembering that indexes start from 0.
+
+###VIDEO 34: TABLE FOR MULTIDIMENSIONAL ARRAYS
+
+To create tables showing all the the data in the multimensional arrays, create a method with an array as its parameter
+and containing two for loops(one is nested) to display the rows and columns. The first loop loops to the length of the first index of multidimensional array in the parameters while the second loops using both indexes.
+
+        EXAMPLE
+        
+        public static void table(int x [][]){
+        for (int row=0; row<x.length;row++){
+           for(int column=0;column<x[row].length;column++){
+              System.out.println(x[row][column]);
+              }
+           }
+        }
+        
+ Afterwards call this in the main method,for example: table(arrayname);, to print the array as a table.
