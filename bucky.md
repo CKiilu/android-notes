@@ -19,4 +19,11 @@ In the main class import the scanner utility so that the user can define the val
  
  Instance variable: A variable that's outside a method but inside a class
  
+ ###VIDEO 17: CONSTRUCTORS
+ 
+ A method with the same name as a class and is used to initialze variables as soon as you create an object.
+ This allows you to avoid calling the setter method. To use it you enter the variable as you create the object within the parameter brackets.
+ 
+ Each object has its own set of variables.
+ 
  
