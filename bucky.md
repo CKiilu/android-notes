@@ -42,8 +42,18 @@ and can be used multiple times. The statement is only run until the point where 
 
 ###VIDEO 20: CONDITIONAL OPERATORS
 
-Example: System.out.println(age > 50 ? "Old": "Young")
+######Example: System.out.println(age > 50 ? "Old": "Young")
 
 The question mark makes the statement a boolean. If age is greater than 50, "Old" is printed otherwise "Young" is printed.
 The value on the left represents true and that on the right represents false.
 
+###VIDEO 21: SIMPLE AVERAGING PROGRAM
+
+Import scanner so values can be input when the program runs.
+
+    #####IMPORTING SCANNER
+    
+    Outside the class type: import.java.util.*;
+    Within the class create object : Scanner Scannerobj = new Scanner(System.in);
+
+Use a while loop. Within the loop set an int variable equal to Scannerobj.nextInt();. Accumulate the sum using the loop and find average using by dividing the total by by the number of integers input.
