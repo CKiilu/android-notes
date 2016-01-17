@@ -187,3 +187,20 @@ and containing two for loops(one is nested) to display the rows and columns. The
         }
         
  Afterwards call this in the main method,for example: table(arrayname);, to print the array as a table.
+
+###VIDEO 35: VARIABLE LENGTH ARGUMENTS
+
+This is used when the number of variables being input is unknown. To use it you type: int...variablename.
+
+To calculate average using this do:
+
+       public static int average(int...varname){
+          int sum=0;
+          for(intx:varname){
+             sum+=x;
+          }
+          return sum/varname.length;
+       }
+       
+Afterwards call this method in the main method while inputting the required number as parameters. 
+For example: average(1,2,3,4,5,6);
