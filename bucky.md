@@ -128,3 +128,12 @@ To shorten amking an array use an initializer. For example: int arrayname[]={1,2
            arrayname.length store the number of values inyour array.
            
 Print "index" and "value" first with a tab (\t) then print the indexes and values of the array using a loop.
+
+###VIDEO 29: SUMMING ELEMENTS OF ARRAYS
+
+Create an array containing numbers and a sum variable initialized as 0;
+
+Using a for loop add array values to the sum.
+
+######NOTE: Use arrayname.length
+
