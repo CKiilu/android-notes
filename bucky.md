@@ -122,3 +122,9 @@ Storage indexes start from 0. To store values use the indexes to replace x.  For
 
 To shorten amking an array use an initializer. For example: int arrayname[]={1,2,3,4,5};
 
+###VIDEO 28: CREATING AN ARRAY TABLE
+
+     NOTE: "\ t" in a string means a tab of about five spaces.
+           arrayname.length store the number of values inyour array.
+           
+Print "index" and "value" first with a tab (\t) then print the indexes and values of the array using a loop.
