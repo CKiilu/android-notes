@@ -77,3 +77,8 @@ Using the for loop set the time as a condition.
       arg0 is the number or expression while arg1 is the power.
  
  
+###VIDEO 24: DO WHILE LOOP
+
+It executes the loop at least once even if the test condition is false unlike the while loop.
+
+STRUCTURE: do{Statements}while(condition);
