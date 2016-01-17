@@ -97,3 +97,17 @@ Math.min(x, y); Gives the minumum of two numbers.
 
 Math.sqrt(x); Square root of a number.
 
+###VIDEO 26: RANDOM NUMBER GENERATOR
+
+Import the random number generator utility and create an object of it.
+
+     EXAMPLE
+     
+     import.java.util.Random;
+     
+     Random randomobj = new Random();
+     
+     
+Calling the object prints numbers from 0 if the statement is typed as: number = randomobj.nextInt(range);.
+
+One should instead type it as umber = 1 + randomobj.nextInt(range); to get the specified numbers in the range.
