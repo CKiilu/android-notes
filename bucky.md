@@ -245,3 +245,7 @@ Public allows use of variables outside a class.
 This is done using different numbers of arguments for each constructor created in a class.
 
 This allows the user to enter specific sets of information to perform specific different tasks.
+
+###VIDEO 40: SET AND GET METHODS
+
+These enable you to set and get private variables
