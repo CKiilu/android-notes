@@ -205,7 +205,7 @@ To calculate average using this do:
 Afterwards call this method in the main method while inputting the required number as parameters. 
 For example: average(1,2,3,4,5,6);
 
-###VIDEO 36: TIME CLASS
+###VIDEO 36: 24 HOUR TIME CLASS
 
 Create a class with the private variables hour, minute and second. Within the class create the setTime method with parameters representing the aforementioned variables.
 
@@ -216,6 +216,20 @@ In the setter equate the private variables to the parameters while inputting con
  
  For the 24 hour system create a method containing the statement below:
  
- return String.format("%02d:%02d:%02d", hour, minute, second);
+    public String fullHours(){
+    return String.format("%02d:%02d:%02d", hour, minute, second);
+    }
  
  %02d represents setting the numbers shown for time for each unit to two integers.
+
+###VIDEO 37: 12 HOUR TIME CLASS
+
+Create another method in the time class.
+
+      public String halfHours(){
+         return String.format("%d:%02d:%02d %s", ((hour==0 || hour==12) ? 12: hour%12), minute, second, (hour < 12? "AM":"PM"));
+      }
+ 
+ Use the setter in the main method of the main class to set the time after creating an object.
+ 
+ ###VIDEO 38:
