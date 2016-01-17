@@ -82,3 +82,18 @@ Using the for loop set the time as a condition.
 It executes the loop at least once even if the test condition is false unlike the while loop.
 
 STRUCTURE: do{Statements}while(condition);
+
+###VIDEO 25:MATH CLASS METHODS
+
+Math.abs(x); Gives you the absolute value of a number(number always becomes positve).
+
+Math.ceil(x); Rounds up the number.
+
+Math.floor(x); Rounds down the number.
+
+Math.max(x, y); Gives the maximum of two numbers.
+
+Math.min(x, y); Gives the minumum of two numbers.
+
+Math.sqrt(x); Square root of a number.
+
