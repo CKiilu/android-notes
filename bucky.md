@@ -51,9 +51,15 @@ The value on the left represents true and that on the right represents false.
 
 Import scanner so values can be input when the program runs.
 
-    #####IMPORTING SCANNER
+    IMPORTING SCANNER
     
     Outside the class type: import.java.util.*;
     Within the class create object : Scanner Scannerobj = new Scanner(System.in);
 
 Use a while loop. Within the loop set an int variable equal to Scannerobj.nextInt();. Accumulate the sum using the loop and find average using by dividing the total by by the number of integers input.
+
+###VIDEO 22: FOR LOOPS
+
+Structure: for(int x = 0; x>10; x++) 
+
+The first statement shows where the loop starts, the second here it ends and the third the increments/decrements the value of the counter undergoes.
