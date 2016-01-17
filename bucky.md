@@ -239,3 +239,9 @@ Private prevents use of variables outside a class.
 Public allows use of variables outside a class.
 
 .this prefixed to a variable ensures that variables refered to in a method are those within the method instead of variables outside of a method if the have the same name.
+
+###VIDEO 39: MULTIPLE CONSTRUCTORS
+
+This is done using different numbers of arguments for each constructor created in a class.
+
+This allows the user to enter specific sets of information to perform specific different tasks.
