@@ -154,3 +154,12 @@ Since elements are the numbers 1-6,use another for loop with x initialized as 1 
 To use this initialze an array then start a for loop statement.
 
 Structure: For(int x: arrayyname)
+
+###VIDEO 32: ARRAYS IN METHODS
+
+First initialize an array(int y[]) within the main method. 
+
+Afterwards create a method int the class with a parameter of the same data type(int x[]).Use a for loop to add a number to each element of this array.For example: x[counter]+=5.
+
+Call the method in the array within the main method to add 5 to each element within array y using: methodName(y);
+
