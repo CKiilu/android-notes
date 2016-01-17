@@ -40,3 +40,10 @@ and can be used multiple times. The statement is only run until the point where 
 
 ######NOTE: Curly braces are not required in an 'if' statement. Use when one option is required of many.
 
+###VIDEO 20: CONDITIONAL OPERATORS
+
+Example: System.out.println(age > 50 ? "Old": "Young")
+
+The question mark makes the statement a boolean. If age is greater than 50, "Old" is printed otherwise "Young" is printed.
+The value on the left represents true and that on the right represents false.
+
