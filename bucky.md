@@ -30,3 +30,13 @@ In the main class import the scanner utility so that the user can define the val
 
 This is adding another if conditional within the alse statement of the first if conditional. 
 Both correct statements are run along with the program.
+
+######NOTE: Use when more than one option's outputs are required.
+
+###VIDEO 19: ELSE IF STATEMENT
+
+This is a way of giving java many options for an if statement. 'else if' is placed between the 'if' and 'else' statements
+and can be used multiple times. The statement is only run until the point where the condition is true.
+
+######NOTE: Curly braces are not required in an 'if' statement. Use when one option is required of many.
+
