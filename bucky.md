@@ -111,3 +111,14 @@ Import the random number generator utility and create an object of it.
 Calling the object prints numbers from 0 if the statement is typed as: number = randomobj.nextInt(range);.
 
 One should instead type it as umber = 1 + randomobj.nextInt(range); to get the specified numbers in the range.
+
+###VIDEO 27: INTRODUCTION TO ARRAYS
+
+This is a variable that can store many values in it of a the same data type.
+
+Structure of an int array: int arrayname[]=new int[x];. Where x is equal to number of variables being stored.
+
+Storage indexes start from 0. To store values use the indexes to replace x.  For example: arrayname[0] =44;
+
+To shorten amking an array use an initializer. For example: int arrayname[]={1,2,3,4,5};
+
