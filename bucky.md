@@ -137,3 +137,14 @@ Using a for loop add array values to the sum.
 
 ######NOTE: Use arrayname.length
 
+###VIDEO 30: ARRAY ELEMENTS AS COUNTERS
+
+Import random utility and create its object.
+
+Create an array to store the frequency at which a number appears. Afterwards, use a for loop to input the frquency.
+
+Formula in loop:  ++arrayname[1+randomobj.nextInt(x)];. Where x is equal to the range of numbers available to the random utility.
+
+Print element and frequency.
+
+Since elements are the numbers 1-6,use another for loop with x initialized as 1 and ending as arraynane.length to printthe actual values of elements and their frequencies.
