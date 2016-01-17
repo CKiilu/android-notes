@@ -148,3 +148,9 @@ Formula in loop:  ++arrayname[1+randomobj.nextInt(x)];. Where x is equal to the 
 Print element and frequency.
 
 Since elements are the numbers 1-6,use another for loop with x initialized as 1 and ending as arraynane.length to printthe actual values of elements and their frequencies.
+
+###VIDEO 31: ENHACED FOR LOOP
+
+To use this initialze an array then start a for loop statement.
+
+Structure: For(int x: arrayyname)
