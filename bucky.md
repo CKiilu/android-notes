@@ -232,4 +232,10 @@ Create another method in the time class.
  
  Use the setter in the main method of the main class to set the time after creating an object.
  
- ###VIDEO 38:
+###VIDEO 38: PUBLIC, PRIVATE AND THIS
+
+Private prevents use of variables outside a class.
+
+Public allows use of variables outside a class.
+
+.this prefixed to a variable ensures that variables refered to in a method are those within the method instead of variables outside of a method if the have the same name.
