@@ -163,3 +163,10 @@ Afterwards create a method int the class with a parameter of the same data type(
 
 Call the method in the array within the main method to add 5 to each element within array y using: methodName(y);
 
+###VIDEO 33: MULTIDIMENSIONAL ARRAYS
+
+These are arrays which contain more than a single array within them. They are use to create tables and store coordinates.
+
+For example: int array[][]={{1,2,3,4,5}{6,7,8,9,0}}
+
+To call elements use array index and element index while remembering that indexes start from 0.
