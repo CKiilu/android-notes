@@ -249,3 +249,9 @@ This allows the user to enter specific sets of information to perform specific d
 ###VIDEO 40: SET AND GET METHODS
 
 These enable you to set and get private variables
+
+###VIDEO 46: STATIC
+
+This modifier enables you to share values with all objects in a class.
+
+ For example, members in a club initialized as a private int equal to 0. If the value of members in the constructor is set to member++; each object creation increases the members variable automatically.
