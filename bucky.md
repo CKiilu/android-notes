@@ -279,3 +279,20 @@ Creating a method again in child class overrides the inherited methods.
 
 A child of a child class inherits public methods of its parent class and its parent class' parent class.
 
+###VIDEO 50: GUI
+
+The method used to do this is to use the inbuilt class JOption.
+
+   Import the class using: import javax.swing.JOptionPane;
+   
+  EXAMPLE OF USAGE: Creating a program which take two numbers separately and shows your sum.
+  
+      public static void main(String[] args){
+      String number1 = JOptionPane.showInputDialog("Enter first number");
+      String number2 = JOptionPane.showInputDialog("Enter second number");
+      
+      int num1 = Integer.parseInt(number1);
+      int num2 = Integer.parseInt(number2);
+      int sum = num1 + num2;
+      
+      JOptionPane.showMessageDialog(null, "The answer is " + sum, "the title", JOptionPane.PLAIN_MESSAGE);
