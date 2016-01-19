@@ -263,3 +263,8 @@ Use a static get method to call static variables in a class.
 With static type you can use a class instead of an object to call the static method; since static methods are shared 
 among all objects.
 
+###VIDEO 48: FINAL
+
+Always put constants in capital letters. Final type variables become constants(they cannot change after being set).
+
+You can initialize final type variables in constructors. 
