@@ -301,32 +301,32 @@ The method used to do this is to use the inbuilt class JOption.
 
 This is to build a program which inherits the looks and feel of the OS on which it is run.
   
-   From class without main method
-  
-   import java.awt.FlowLayout;      To avoid programming a layout.
-   import javax.swing.JFrame;       Basic window layout
-   import javax.swing.JLabele;      A line a text; allows you to do simple images.
-   
-   public class classname extends JFrame{
-   private Jlabel item1;
-   
-   public classname(){
-   super("title");                              Title being used
-   setLayout(new FlowLayout ());                Setting the layout
-   
-   item1 = new JLabel("This is a sentence");    A sentence
-   item1.setToolTipText("shows up on hover");   Appears on hovering
-   }
-   }
-   
-
-   From class with main method
-   
-   import javax.swing.JFrame;
-   
-   main method(){
-   classname obj new classname();
-   obj.setDefaultCloseOperation(JFrame.EXIT_ ON _CLOSE);
-   obj.setSize(275,189);
-   obj.setVisible(true);
-   }
+       From class without main method
+      
+       import java.awt.FlowLayout;      To avoid programming a layout.
+       import javax.swing.JFrame;       Basic window layout
+       import javax.swing.JLabele;      A line a text; allows you to do simple images.
+       
+       public class classname extends JFrame{
+       private Jlabel item1;
+       
+       public classname(){
+       super("title");                              Title being used
+       setLayout(new FlowLayout ());                Setting the layout
+       
+       item1 = new JLabel("This is a sentence");    A sentence
+       item1.setToolTipText("shows up on hover");   Appears on hovering
+       }
+       }
+       
+    
+       From class with main method
+       
+       import javax.swing.JFrame;
+       
+       main method(){
+       classname obj new classname();
+       obj.setDefaultCloseOperation(JFrame.EXIT_ ON _CLOSE);
+       obj.setSize(275,189);
+       obj.setVisible(true);
+       }
