@@ -268,3 +268,14 @@ among all objects.
 Always put constants in capital letters. Final type variables become constants(they cannot change after being set).
 
 You can initialize final type variables in constructors. 
+
+###VIDEO 49: INHERITANCE
+
+Syntax: public class child extends parent{}
+
+Using the extends keyword one can get all methods within a parent class without retyping them.
+
+Creating a method again in child class overrides the inherited methods.
+
+A child of a child class inherits public methods of its parent class and its parent class' parent class.
+
