@@ -283,7 +283,7 @@ A child of a child class inherits public methods of its parent class and its par
 
 The method used to do this is to use the inbuilt class JOption.
 
-   Import the class using: import javax.swing.JOptionPane;
+      Import the class using: import javax.swing.JOptionPane;
    
   EXAMPLE OF USAGE: Creating a program which take two numbers separately and shows your sum.
   
@@ -295,4 +295,38 @@ The method used to do this is to use the inbuilt class JOption.
       int num2 = Integer.parseInt(number2);
       int sum = num1 + num2;
       
-      JOptionPane.showMessageDialog(null, "The answer is " + sum, "the title", JOptionPane.PLAIN_MESSAGE);
+      JOptionPane.showMessageDialog(null, "The answer is " + sum, "the title", JOptionPane.PLAIN_MESSAGE);}
+
+###VIDEO 51: GUI WITH JFRAME
+
+This is to build a program which inherits the looks and feel of the OS on which it is run.
+  
+   From class without main method
+  
+   import java.awt.FlowLayout;      To avoid programming a layout.
+   import javax.swing.JFrame;       Basic window layout
+   import javax.swing.JLabele;      A line a text; allows you to do simple images.
+   
+   public class classname extends JFrame{
+   private Jlabel item1;
+   
+   public classname(){
+   super("title");                              Title being used
+   setLayout(new FlowLayout ());                Setting the layout
+   
+   item1 = new JLabel("This is a sentence");    A sentence
+   item1.setToolTipText("shows up on hover");   Appears on hovering
+   }
+   }
+   
+
+   From class with main method
+   
+   import javax.swing.JFrame;
+   
+   main method(){
+   classname obj new classname();
+   obj.setDefaultCloseOperation(JFrame.EXIT_ ON _CLOSE);
+   obj.setSize(275,189);
+   obj.setVisible(true);
+   }
