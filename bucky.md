@@ -255,3 +255,11 @@ These enable you to set and get private variables
 This modifier enables you to share values with all objects in a class.
 
  For example, members in a club initialized as a private int equal to 0. If the value of members in the constructor is set to member++; each object creation increases the members variable automatically.
+
+###VIDEO 47: MORE ON STATIC 
+
+Use a static get method to call static variables in a class.
+
+With static type you can use a class instead of an object to call the static method; since static methods are shared 
+among all objects.
+
