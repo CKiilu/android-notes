@@ -42,3 +42,40 @@ Use front and rear in array brackets to signify array indexes. Use rear for last
 ####PRIORITY QUEUE
 
 Use Integer class to parseInt the parameter being input in an if statemet contained in a for loop.
+
+##LINKED LIST
+
+A link is an object.
+
+Each link has another link in the list.
+
+The LinkedList has only a reerence to the last link added to it.
+
+Public link is used as a constructor  with parameters.
+
+Create a nested class containing the linkList with firstlink as null.
+
+To check if the list is empty use a boolean which references if the link is null.
+
+###ADDING NEW LINKS
+
+A new link created is referenced to the newest link added.Next is assigned the reference to the previous link created.
+
+      Link newLink = new Link(bookName, millionsSold)
+      newLink.next = firstLink;
+      firstLink = newLink;
+      
+###REMOVING LINKS
+
+Firstlink is given thevalue of the current link.
+
+      Link linkreference=firstlink;
+      if(!ItsEmpty90){
+      firstlink= firstink.next;
+      }else{
+      syso("empty list");}
+      
+###CYCLING IN A LIST
+
+
+      
