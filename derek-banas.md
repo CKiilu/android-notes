@@ -31,4 +31,14 @@ To push an item onto the stack use the function prefixed by obj name
 
 Sting[] tempString = name.split(" ") Creates a new item every time there is a space between different parts of an array.
 
-###QUEUE
+###QUEUES
+
+Creating a queue is similar to creating a stack. The difference comes about in using the functions.
+
+Instead of using push, insert is used; instead of pop remove  but peek remains the same.
+
+Use front and rear in array brackets to signify array indexes. Use rear for last and access the first using front.
+
+####PRIORITY QUEUE
+
+Use Integer class to parseInt the parameter being input in an if statemet contained in a for loop.
