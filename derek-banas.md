@@ -136,6 +136,7 @@ Get the reference name next in the link to remove and assign it to the link abov
 ###DOUBLE ENDED LINKEDLIST
 
 code
+
       public class DoubleEndedLinkedList{
             Neighbour firstlink;
             Neighbour lastlink;
@@ -160,3 +161,15 @@ code
             }
             lastlink=newlink;
       }
+
+###INSERT LIST ITEM AFTER KEY
+
+Use a boolean function with int key as one of the parameters
+
+###INSERTING LIST IN ODDER
+
+Use a list to sort the linkdedlist values in order.
+
+###USING ITERATORS
+
+Use loops to add and remove multiple list items by using null to break folow.
