@@ -173,3 +173,7 @@ Use a list to sort the linkdedlist values in order.
 ###USING ITERATORS
 
 Use loops to add and remove multiple list items by using null to break folow.
+
+##BIG O NOTATIONS
+
+It is a way to measure how well a computer algorithm scales when more data is input.
