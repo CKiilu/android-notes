@@ -67,7 +67,7 @@ A new link created is referenced to the newest link added.Next is assigned the r
       
 ###REMOVING LINKS
 
-Firstlink is given thevalue of the current link.
+Firstlink is given the value of the current link.
 
       Link linkreference=firstlink;
       if(!ItsEmpty90){
@@ -77,5 +77,60 @@ Firstlink is given thevalue of the current link.
       
 ###CYCLING IN A LIST
 
+Start at the reference stored in the firstlink of the linkedlist. This gets
+the references stored in next for every link until next returns null.
 
+      Sample code
+      link theLink = firstlink;
+      while(thelink!=null){
+            thelink.display();
+      }
+      
+The code checks data for the the firstlink reference stored in the linkedlist
+and keeps searching until the end unless a match is found.
+
+      Finding function
+      
+      public link find(String bookname){
+            link thelink = firstlink;
+            if(!isEmpty()){
+                  while(thelink.bookname != bookname){
+                        if(thelink.next == null){
+                              return null;
+                        } else {
+                              thelink = thelink.next
+                        }
+                  } else {
+                        syso("Empty linked list")
+            }
+            
+###REMOVING A SPECIFIC LINK
+
+Cycle through all links until match is found. If referenced link stored in the 
+linkedlist's firstlink matches store the reference next in firstlink as firstlink.
+
+If a match occurs elsewhere find the link the next equals the reference to remove.
+Get the reference name next in the link to remove and assign it to the link above.
+
+      CODE
+      public link removelink(String bookname){
+            link cuurentlink = firstlink;
+            link previouslink = firstlink;
+            
+            while(currentlink.bookname != bookname){
+                  if(currentlink.next == null){
+                        return null;
+                  } else {
+                        previouslink = currentlink;
+                        currentlink = currentlink.next;
+                  }
+            }
+            if(currentlink == firstlink){
+                  firstlink = firstlink.next;
+            } else {
+                  previuslink.next = currentlink.next;
+            }
+            return currentlink;
+      }
+      
       
