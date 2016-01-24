@@ -114,7 +114,7 @@ Get the reference name next in the link to remove and assign it to the link abov
 
       CODE
       public link removelink(String bookname){
-            link cuurentlink = firstlink;
+            link currentlink = firstlink;
             link previouslink = firstlink;
             
             while(currentlink.bookname != bookname){
@@ -133,4 +133,30 @@ Get the reference name next in the link to remove and assign it to the link abov
             return currentlink;
       }
       
-      
+###DOUBLE ENDED LINKEDLIST
+
+code
+      public class DoubleEndedLinkedList{
+            Neighbour firstlink;
+            Neighbour lastlink;
+            
+            public void insertinfirstlnkposition(String homeownername, int housenumber){
+                  Neighbour newlink = new Neighbour(homeownername, housenumber);
+                  if(isEmpty()){
+                        lastlink=newlink;
+                  } else {
+                  fistlink.previous =newlink;
+                  }
+                  newlink.next=firstlink;
+                  firstlink=newlink;
+            }
+             public void insertinlastlnkposition(String homeownername, int housenumber){
+              Neighbour newlink = new Neighbour(homeownername, housenumber);
+                  if(isEmpty()){
+                        firstlink=newlink;
+                  } else {
+                  lastlink.next = newlink;
+                  newlink.previous = lastlink;
+            }
+            lastlink=newlink;
+      }
